@@ -303,6 +303,30 @@ function init() {
     const t = localStorage.getItem('bomdecompras-theme'); if (t) document.documentElement.dataset.theme = t;
     const d = localStorage.getItem('bomdecompras-density'); if (d) document.documentElement.dataset.density = d;
   } catch (e) { }
+
+  /* portão de senha — bloqueio simples, não é segurança real (senha visível no código-fonte) */
+  try {
+    const AUTH_KEY = 'bomdecompras-auth', AUTH_PASS = '123456';
+    const gate = document.getElementById('authGate');
+    if (gate) {
+      if (localStorage.getItem(AUTH_KEY) === '1') {
+        gate.remove();
+      } else {
+        document.getElementById('authForm').onsubmit = (e) => {
+          e.preventDefault();
+          const input = document.getElementById('authPass');
+          if (input.value === AUTH_PASS) {
+            try { localStorage.setItem(AUTH_KEY, '1'); } catch (e) { }
+            gate.remove();
+          } else {
+            document.getElementById('authErr').classList.add('show');
+            input.value = '';
+            input.focus();
+          }
+        };
+      }
+    }
+  } catch (e) { }
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     if (!document.documentElement.dataset.theme) render();
   });
