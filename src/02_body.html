@@ -1,0 +1,372 @@
+<div class="app">
+  <aside class="rail" id="rail">
+    <div class="mark">
+      <div class="glyph">BC</div>
+      <div><b>Bom de Compras</b><small>Marketplace OS</small></div>
+    </div>
+    <nav class="nav" id="nav">
+      <div class="navsec lab">Análise</div>
+      <button data-v="dash" aria-current="true">
+        <svg viewBox="0 0 24 24"><path d="M3 13.5h5.5V21H3zM9.5 3H15v18H9.5zM16 8.5h5V21h-5z"/></svg>
+        Dashboard <span class="k">1</span></button>
+      <button data-v="canais">
+        <svg viewBox="0 0 24 24"><circle cx="5.5" cy="6" r="2.4"/><circle cx="18.5" cy="6" r="2.4"/><circle cx="12" cy="18.5" r="2.4"/><path d="M7.5 7.9l3.2 8.4M16.5 7.9l-3.2 8.4M8 6h8"/></svg>
+        Canais <span class="k">2</span></button>
+      <button data-v="anual">
+        <svg viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="16.5" rx="2.2"/><path d="M3 9.5h18M8 2.5v3.5M16 2.5v3.5"/><path d="M7 13h3.5M13.5 13H17M7 17h3.5M13.5 17H17"/></svg>
+        Anual <span class="k">3</span></button>
+      <button data-v="semanal">
+        <svg viewBox="0 0 24 24"><path d="M3.5 20.5h17"/><path d="M6 20.5V10M10.5 20.5V4.5M15 20.5v-7M19.5 20.5V7.5"/></svg>
+        Semanal <span class="k">4</span></button>
+      <button data-v="comparativos">
+        <svg viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="3.5" width="7" height="7" rx="1.6"/><rect x="3.5" y="13.5" width="7" height="7" rx="1.6"/><rect x="13.5" y="13.5" width="7" height="7" rx="1.6"/></svg>
+        Comparativos <span class="k">5</span></button>
+
+      <div class="navsec lab">Operação</div>
+      <button data-v="lancamentos">
+        <svg viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="16" rx="2"/><path d="M3.5 9h17M3.5 14.5h17M9.5 4v16"/></svg>
+        Lançamentos <span class="k">6</span></button>
+      <button data-v="metas">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.3"/><circle cx="12" cy="12" r="4.3"/><circle cx="12" cy="12" r=".9" fill="currentColor"/></svg>
+        Metas <span class="k">7</span></button>
+      <button data-v="dados">
+        <svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7.7" ry="2.9"/><path d="M4.3 6v12c0 1.6 3.45 2.9 7.7 2.9s7.7-1.3 7.7-2.9V6M4.3 12c0 1.6 3.45 2.9 7.7 2.9s7.7-1.3 7.7-2.9"/></svg>
+        Dados &amp; Backup <span class="k">8</span></button>
+
+      <div class="navsec lab">Comunicação</div>
+      <button data-v="apresentacao">
+        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12.5" rx="2"/><path d="M12 16.5V20M8.5 20.5h7M7.8 11.5l2.7-2.8 2.3 2.4 3.4-4"/></svg>
+        Apresentação <span class="k">9</span></button>
+      <button data-v="glossario">
+        <svg viewBox="0 0 24 24"><path d="M4.5 5A2.5 2.5 0 0 1 7 2.5h12.5v17H7A2.5 2.5 0 0 0 4.5 22z"/><path d="M8 6.5h8M8 10h5"/></svg>
+        Glossário <span class="k">0</span></button>
+
+      <div class="navsec lab">Sistema</div>
+      <button data-v="integracoes">
+        <svg viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+        Integrações</button>
+    </nav>
+    <div class="railfoot">
+      <p><span class="dot" id="stDot"></span><b id="stMain">Dados originais</b><br><span id="stSub">base zerada</span></p>
+    </div>
+    <button class="collapse-btn" id="collapseRail" title="Colapsar menu">
+      <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+  </aside>
+
+  <div class="body">
+    <header class="top">
+      <div class="top-a">
+        <button class="btn sq burger" id="burger" aria-label="Abrir menu">
+          <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        <div>
+          <h1 id="vTitle">Dashboard</h1>
+          <div class="crumb" id="crumb"></div>
+        </div>
+        <div class="tools">
+          <button class="btn" id="cmdkBtn" title="Buscar (Ctrl+K)">
+            <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+            Buscar <kbd>⌘K</kbd></button>
+          <button class="btn sq" id="densityBtn" title="Densidade das tabelas">
+            <svg viewBox="0 0 24 24" id="densIcon"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+          <button class="btn sq" id="themeBtn" title="Alternar tema">
+            <svg viewBox="0 0 24 24" id="themeIcon"><path d="M20.5 14.2A8.5 8.5 0 1 1 9.8 3.5a7 7 0 0 0 10.7 10.7z"/></svg></button>
+        </div>
+      </div>
+      <div class="filters" id="filters">
+        <div class="fgroup">
+          <span class="lab">Período</span>
+          <div class="presets" id="presets"></div>
+          <select class="sel" id="periodSel" aria-label="Período específico"></select>
+          <div class="daterange" id="daterange">
+            <span class="sep">/</span>
+            <input type="date" id="drFrom" title="De">
+            <span class="sep">–</span>
+            <input type="date" id="drTo" title="Até">
+            <button class="btn" id="drApply">Aplicar</button>
+          </div>
+        </div>
+        <div class="fgroup" style="flex:1;min-width:240px">
+          <span class="lab">Canal</span>
+          <div class="pills" id="chPills"></div>
+        </div>
+      </div>
+      <div class="filter-chips" id="filterChips"></div>
+    </header>
+
+    <div class="main">
+
+      <!-- ══════════ DASHBOARD ══════════ -->
+      <section class="view on" id="v-dash">
+        <div class="kstrip" id="kstrip"></div>
+
+        <div class="sechd">
+          <h2>Evolução da receita</h2>
+          <p id="trendNote"></p>
+          <div class="r"><div class="seg" id="granSeg">
+            <button data-g="d" aria-pressed="true">Diário</button>
+            <button data-g="w">Semanal</button>
+            <button data-g="m">Mensal</button>
+          </div></div>
+        </div>
+        <div class="grid">
+          <div class="panel c8">
+            <div class="phd"><h3>Realizada, paga e meta</h3><span class="note" id="trendHint">clique numa barra para filtrar o período</span></div>
+            <div class="pbody"><canvas id="cTrend" height="272"></canvas><div class="leg" id="lTrend"></div></div>
+          </div>
+          <div class="panel c4">
+            <div class="phd"><h3>Ritmo vs. meta</h3><span class="note" id="paceNote"></span></div>
+            <div class="pbody" id="paceBox"></div>
+          </div>
+        </div>
+
+        <div class="sechd"><h2>Composição por canal</h2><p>clique num canal para filtrar o sistema inteiro</p></div>
+        <div class="grid">
+          <div class="panel c4">
+            <div class="phd"><h3>Ranking por receita</h3><span class="note">share sobre o total</span></div>
+            <div class="pbody"><div class="rank" id="chRank"></div></div>
+          </div>
+          <div class="panel c3">
+            <div class="phd"><h3>Share de canais</h3><span class="note">clique para filtrar</span></div>
+            <div class="pbody">
+              <div class="donut-wrap"><canvas id="cShareDonut" height="180"></canvas>
+                <div class="donut-center"><div class="dv" id="dShareV"></div><div class="dl">receita</div></div>
+              </div>
+              <div class="leg" id="lShareDonut"></div>
+            </div>
+          </div>
+          <div class="panel c5">
+            <div class="phd"><h3>Receita mensal empilhada</h3><span class="note">todos os canais</span></div>
+            <div class="pbody"><canvas id="cStack" height="252"></canvas><div class="leg" id="lStack"></div></div>
+          </div>
+        </div>
+
+        <div class="sechd"><h2>Qualidade da receita e mídia</h2></div>
+        <div class="grid">
+          <div class="panel c4"><div class="phd"><h3>Cancelamento</h3><span class="note">R$ e % da receita</span></div>
+            <div class="pbody"><canvas id="cCancel" height="188"></canvas></div></div>
+          <div class="panel c4"><div class="phd"><h3>Investimento em ADS</h3><span class="note">e ACOS</span></div>
+            <div class="pbody"><canvas id="cAds" height="188"></canvas></div></div>
+          <div class="panel c4"><div class="phd"><h3>Ticket médio pago</h3><span class="note">vs. bruto</span></div>
+            <div class="pbody"><canvas id="cTicket" height="188"></canvas></div></div>
+        </div>
+
+        <div class="sechd"><h2>Funil de conversão</h2><p>visitas → pedidos → pagos</p></div>
+        <div class="grid">
+          <div class="panel c6"><div class="phd"><h3>Visitas → Pedidos → Pagos</h3><span class="note">no período selecionado</span></div>
+            <div class="pbody" id="funnelBox"></div></div>
+          <div class="panel c6"><div class="phd"><h3>Mapa de calor de receita paga</h3><span class="note">cor mais intensa = maior receita</span></div>
+            <div class="pbody" style="overflow:auto" id="heatCalBox"></div></div>
+        </div>
+
+        <div class="sechd"><h2>Leitura automática</h2><p>gerada a partir dos dados do período selecionado</p></div>
+        <div class="grid">
+          <div class="panel c6"><div class="phd"><h3>Destaques e alertas</h3></div>
+            <div class="pbody"><div class="feed" id="alerts"></div></div></div>
+          <div class="panel c6"><div class="phd"><h3>Melhores e piores dias</h3><span class="note">por receita paga</span></div>
+            <div class="pbody" id="bestWorst"></div></div>
+        </div>
+      </section>
+
+      <!-- ══════════ CANAIS ══════════ -->
+      <section class="view" id="v-canais">
+        <div class="grid">
+          <div class="panel c12">
+            <div class="phd"><h3>Comparar canais</h3><span class="note">selecione quais entram no gráfico</span>
+              <div class="r"><div class="seg" id="chMetricSeg"></div></div></div>
+            <div class="pbody">
+              <div class="pills" id="chCompare" style="margin-bottom:14px"></div>
+              <canvas id="cChannels" height="264"></canvas>
+              <div class="leg" id="lChannels"></div>
+            </div>
+          </div>
+        </div>
+        <div class="sechd"><h2>Quadro comparativo</h2><p id="cmpScope"></p></div>
+        <div class="grid"><div class="c12"><div class="tw"><table class="t" id="tChannels"></table></div></div></div>
+        <div class="sechd"><h2>Análise multidimensional</h2><p>radar de performance por canal · scatter de ticket × volume</p></div>
+        <div class="grid">
+          <div class="panel c6">
+            <div class="phd"><h3>Radar de performance</h3><span class="note">normalizado 0–1 por eixo</span></div>
+            <div class="pbody"><canvas id="cRadar" height="260"></canvas><div class="leg" id="lRadar"></div></div>
+          </div>
+          <div class="panel c6">
+            <div class="phd"><h3>Ticket médio × Volume de pedidos</h3><span class="note">tamanho do ponto = receita total</span></div>
+            <div class="pbody"><canvas id="cScatter" height="260"></canvas><div class="scatter-legend" id="lScatter"></div></div>
+          </div>
+        </div>
+        <div class="sechd"><h2>Detalhe mensal</h2><p id="chDetailName"></p></div>
+        <div class="grid"><div class="c12"><div class="tw"><table class="t" id="tChannelDetail"></table></div></div></div>
+      </section>
+
+      <!-- ══════════ ANUAL ══════════ -->
+      <section class="view" id="v-anual">
+        <div class="sechd"><h2>Acompanhamento anual</h2><p id="anualScope"></p></div>
+        <div class="grid"><div class="c12"><div class="tw tall"><table class="t" id="tAnual"></table></div></div></div>
+      </section>
+
+      <!-- ══════════ SEMANAL ══════════ -->
+      <section class="view" id="v-semanal">
+        <div class="grid">
+          <div class="panel c12">
+            <div class="phd"><h3>Receita por semana</h3><span class="note" id="semScope"></span>
+              <div class="r"><div class="seg" id="semSeg"></div></div></div>
+            <div class="pbody"><canvas id="cWeekly" height="240"></canvas></div>
+          </div>
+        </div>
+        <div class="sechd"><h2>As 53 semanas de 2026</h2><p>semana de segunda a domingo · WoW compara com a semana anterior</p></div>
+        <div class="grid"><div class="c12"><div class="tw"><table class="t" id="tWeekly"></table></div></div></div>
+      </section>
+
+      <!-- ══════════ COMPARATIVOS ══════════ -->
+      <section class="view" id="v-comparativos">
+        <div class="sechd"><h2>Padrões por dia da semana</h2>
+          <p>qual dia vende mais? como cada dia se comporta ao longo dos meses?</p>
+          <div class="r"><select class="sel" id="cmpMetric"></select></div></div>
+
+        <!-- S1 — KPI cards por dia da semana -->
+        <div class="grid"><div class="c12"><div class="cmp-cards" id="cmpCards"></div></div></div>
+
+        <!-- S2 — Gráfico de barras agrupadas -->
+        <div class="sechd" style="margin-top:10px"><h2>Desempenho por dia × mês</h2>
+          <p>barras agrupadas — compare cada dia da semana mês a mês</p></div>
+        <div class="grid">
+          <div class="panel c12">
+            <div class="phd"><h3>Evolução mensal por dia da semana</h3><span class="note">passe o mouse para detalhes</span></div>
+            <div class="pbody"><canvas id="cCmpBars" height="280"></canvas><div class="leg" id="lCmpBars"></div></div>
+          </div>
+        </div>
+
+        <!-- S3 — Heatmap dia × mês melhorado -->
+        <div class="sechd"><h2>Mapa de calor — dia × mês</h2>
+          <p>cor mais forte = melhor desempenho · passe o mouse para ver ranking e variação</p></div>
+        <div class="grid"><div class="c12"><div class="tw tall"><table class="t" id="tDow"></table></div></div></div>
+
+        <!-- S4 — Insights 1ª vs última semana + ocorrências colapsável -->
+        <div class="sechd"><h2>Padrão início vs. fim do mês</h2>
+          <p>a primeira ocorrência de cada dia costuma performar diferente da última?</p></div>
+        <div class="grid"><div class="c12">
+          <div class="cmp-insight-row" id="cmpInsights"></div>
+          <div style="margin-top:16px">
+            <button class="cmp-collapse-btn" id="cmpToggleOcc">
+              <svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+              Ver tabela completa de ocorrências
+            </button>
+          </div>
+          <div class="cmp-collapsed" id="cmpOccWrap">
+            <div class="tw tall" style="margin-top:14px"><table class="t" id="tDowWeek"></table></div>
+          </div>
+        </div></div>
+      </section>
+
+      <!-- ══════════ LANÇAMENTOS ══════════ -->
+      <section class="view" id="v-lancamentos">
+        <div class="grid">
+          <div class="panel pad c12">
+            <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+              <select class="sel" id="lanMonth" aria-label="Mês"></select>
+              <select class="sel" id="lanChannel" aria-label="Canal"></select>
+              <span style="font-size:12.1px;color:var(--ink-3)" id="lanHint"></span>
+              <div style="margin-left:auto;display:flex;gap:8px">
+                <button class="btn" id="lanReset">Descartar alterações do mês</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid"><div class="c12"><div class="tw" style="max-height:68vh"><table class="t" id="tEntry"></table></div></div></div>
+      </section>
+
+      <!-- ══════════ METAS ══════════ -->
+      <section class="view" id="v-metas">
+        <div class="grid">
+          <div class="panel pad c12">
+            <div style="display:flex;gap:14px;align-items:flex-end;flex-wrap:wrap">
+              <div>
+                <div class="lab" style="margin-bottom:5px">Meta anual de receita</div>
+                <input class="sel n" id="metaAnual" style="width:190px;padding:7px 11px;text-align:right;background-image:none" inputmode="decimal" placeholder="0,00">
+              </div>
+              <button class="btn pri" id="metaSeason">Distribuir por sazonalidade</button>
+              <button class="btn" id="metaSpread">Distribuir igualmente</button>
+              <button class="btn qui" id="metaClear">Zerar</button>
+            </div>
+          </div>
+        </div>
+        <div class="sechd"><h2>Meta mensal por canal</h2><p>valores em R$ · edite qualquer célula</p></div>
+        <div class="grid"><div class="c12"><div class="tw tall"><table class="t" id="tMetas"></table></div></div></div>
+      </section>
+
+      <!-- ══════════ DADOS ══════════ -->
+      <section class="view" id="v-dados">
+        <div class="grid">
+          <div class="panel c6"><div class="phd"><h3>Situação dos dados</h3></div><div class="pbody" id="dataStatus"></div></div>
+          <div class="panel c6"><div class="phd"><h3>Backup e portabilidade</h3></div>
+            <div class="pbody">
+              <p style="font-size:12.7px;color:var(--ink-2);margin:0 0 15px;line-height:1.6">
+                Suas edições ficam neste navegador. Exporte um backup para guardar em outro lugar
+                ou levar para outro computador.</p>
+              <div style="display:flex;gap:8px;flex-wrap:wrap">
+                <button class="btn pri" id="expJson">Baixar backup</button>
+                <button class="btn" id="expCsvDaily">Diário em CSV</button>
+                <button class="btn" id="expCsvMonthly">Mensal em CSV</button>
+                <button class="btn" id="impJson">Restaurar backup</button>
+                <button class="btn qui" id="resetAll">Voltar ao original</button>
+              </div>
+              <input type="file" id="fileIn" accept="application/json" style="display:none">
+            </div></div>
+        </div>
+        <div class="sechd"><h2>Origem de cada número</h2><p>de onde vem cada informação que o sistema mostra</p></div>
+        <div class="grid"><div class="c12"><div class="tw tall"><table class="t" id="tLineage"></table></div></div></div>
+      </section>
+
+      <!-- ══════════ APRESENTAÇÃO ══════════ -->
+      <section class="view" id="v-apresentacao">
+        <div class="grid">
+          <div class="panel pad c12">
+            <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+              <div style="flex:1">
+                <p style="margin:0;font-size:12.8px;font-weight:600;color:var(--ink);margin-bottom:10px">
+                  Formato da Reunião:</p>
+                <div class="seg" id="deckModeSeg">
+                  <button data-m="daily" aria-pressed="true">Diária (MTD)</button>
+                  <button data-m="weekly">Semanal</button>
+                  <button data-m="custom">Personalizada</button>
+                </div>
+              </div>
+              <div style="margin-left:auto"><button class="btn pri" id="deckStart" style="padding:10px 18px">Iniciar apresentação</button></div>
+            </div>
+          </div>
+        </div>
+        <div class="sechd"><h2>Roteiro do Deck Executivo</h2><p id="deckNote">os números são recalculados a cada abertura</p></div>
+        <div class="grid" id="deckPreview"></div>
+      </section>
+
+      <!-- ══════════ INTEGRAÇÕES ══════════ -->
+      <section class="view" id="v-integracoes">
+        <div class="grid">
+          <div class="c12">
+            <div class="api-soon" style="margin-bottom:20px">
+              <div class="icon">🔌</div>
+              <p>
+                <b>Integrações de API — Em Desenvolvimento</b>
+                Quando prontas, cada canal será conectado via API e os dados serão sincronizados automaticamente a cada hora, eliminando o lançamento manual. Por enquanto, continue usando a tela de <strong>Lançamentos</strong> para inserir os números diários.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="grid" id="intGrid"></div>
+      </section>
+
+      <!-- ══════════ GLOSSÁRIO ══════════ -->
+      <section class="view" id="v-glossario">
+        <div class="grid">
+          <div class="panel pad c12">
+            <input class="sel" id="glSearch" placeholder="Buscar métrica, sigla ou onde encontrar…"
+                   style="width:100%;background-image:none;padding:10px 13px">
+          </div>
+        </div>
+        <div class="grid"><div class="panel pad c12"><div id="glList"></div></div></div>
+      </section>
+
+    </div>
+  </div>
+</div>
+<div class="toasts" id="toasts"></div>

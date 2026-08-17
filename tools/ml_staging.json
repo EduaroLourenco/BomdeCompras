@@ -1,0 +1,1136 @@
+﻿{
+    "generatedAt":  "2026-08-16T17:02:44.8723183-03:00",
+    "daily":  {
+                  "2026-05-03":  {
+                                     "pedidos":  11,
+                                     "valCancel":  394.5,
+                                     "pedCancel":  1,
+                                     "receita":  2093.01
+                                 },
+                  "2026-02-17":  {
+                                     "pedidos":  10,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1204.9
+                                 },
+                  "2026-05-31":  {
+                                     "pedidos":  21,
+                                     "valCancel":  451.65,
+                                     "pedCancel":  2,
+                                     "receita":  4577.51
+                                 },
+                  "2026-03-08":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1875.7199999999998
+                                 },
+                  "2026-06-09":  {
+                                     "pedidos":  22,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  5803.7899999999991
+                                 },
+                  "2026-07-16":  {
+                                     "pedidos":  16,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  2275.6800000000003
+                                 },
+                  "2026-07-18":  {
+                                     "pedidos":  4,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  759.66
+                                 },
+                  "2026-06-24":  {
+                                     "pedidos":  21,
+                                     "valCancel":  1186.45,
+                                     "pedCancel":  1,
+                                     "receita":  3087.1099999999992
+                                 },
+                  "2026-08-11":  {
+                                     "pedidos":  8,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2736.8100000000004
+                                 },
+                  "2026-05-10":  {
+                                     "pedidos":  10,
+                                     "valCancel":  31.9,
+                                     "pedCancel":  1,
+                                     "receita":  1168.67
+                                 },
+                  "2026-05-16":  {
+                                     "pedidos":  5,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  631.81
+                                 },
+                  "2026-07-22":  {
+                                     "pedidos":  10,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  932.31999999999994
+                                 },
+                  "2026-05-05":  {
+                                     "pedidos":  26,
+                                     "valCancel":  71.01,
+                                     "pedCancel":  1,
+                                     "receita":  2602.4700000000003
+                                 },
+                  "2026-03-12":  {
+                                     "pedidos":  14,
+                                     "valCancel":  584.7,
+                                     "pedCancel":  1,
+                                     "receita":  2841.8700000000003
+                                 },
+                  "2026-05-28":  {
+                                     "pedidos":  21,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3993.07
+                                 },
+                  "2026-07-03":  {
+                                     "pedidos":  15,
+                                     "valCancel":  135.75,
+                                     "pedCancel":  2,
+                                     "receita":  1456.69
+                                 },
+                  "2026-03-25":  {
+                                     "pedidos":  22,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4007.22
+                                 },
+                  "2026-05-21":  {
+                                     "pedidos":  22,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  2727.5
+                                 },
+                  "2026-07-21":  {
+                                     "pedidos":  9,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1651.0500000000002
+                                 },
+                  "2026-02-19":  {
+                                     "pedidos":  6,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1385.9500000000003
+                                 },
+                  "2026-06-16":  {
+                                     "pedidos":  20,
+                                     "valCancel":  188.12,
+                                     "pedCancel":  1,
+                                     "receita":  4986.4999999999991
+                                 },
+                  "2026-05-01":  {
+                                     "pedidos":  5,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  471.60999999999996
+                                 },
+                  "2026-05-15":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2244.5200000000004
+                                 },
+                  "2026-07-13":  {
+                                     "pedidos":  43,
+                                     "valCancel":  1947.9000000000003,
+                                     "pedCancel":  5,
+                                     "receita":  10541.859999999997
+                                 },
+                  "2026-05-19":  {
+                                     "pedidos":  24,
+                                     "valCancel":  19.45,
+                                     "pedCancel":  3,
+                                     "receita":  4388.7099999999991
+                                 },
+                  "2026-03-19":  {
+                                     "pedidos":  6,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  619.95
+                                 },
+                  "2026-02-26":  {
+                                     "pedidos":  15,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3420.2599999999998
+                                 },
+                  "2026-07-26":  {
+                                     "pedidos":  4,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  439.5
+                                 },
+                  "2026-04-10":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3628.49
+                                 },
+                  "2026-06-18":  {
+                                     "pedidos":  18,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2012.3600000000004
+                                 },
+                  "2026-06-25":  {
+                                     "pedidos":  16,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1789.14
+                                 },
+                  "2026-05-18":  {
+                                     "pedidos":  13,
+                                     "valCancel":  26.24,
+                                     "pedCancel":  1,
+                                     "receita":  2718.17
+                                 },
+                  "2026-04-29":  {
+                                     "pedidos":  12,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1573.3
+                                 },
+                  "2026-03-28":  {
+                                     "pedidos":  10,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1546.77
+                                 },
+                  "2026-03-26":  {
+                                     "pedidos":  10,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2596.9100000000003
+                                 },
+                  "2026-06-22":  {
+                                     "pedidos":  21,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4581.9899999999989
+                                 },
+                  "2026-06-05":  {
+                                     "pedidos":  20,
+                                     "valCancel":  318.07000000000005,
+                                     "pedCancel":  3,
+                                     "receita":  4809.58
+                                 },
+                  "2026-08-05":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2460.8999999999996
+                                 },
+                  "2026-03-31":  {
+                                     "pedidos":  11,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1929.7199999999998
+                                 },
+                  "2026-05-06":  {
+                                     "pedidos":  11,
+                                     "valCancel":  26.52,
+                                     "pedCancel":  1,
+                                     "receita":  3711.79
+                                 },
+                  "2026-08-06":  {
+                                     "pedidos":  9,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1447.5800000000002
+                                 },
+                  "2026-04-26":  {
+                                     "pedidos":  8,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1391.8200000000002
+                                 },
+                  "2026-07-09":  {
+                                     "pedidos":  18,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  994.36
+                                 },
+                  "2026-08-04":  {
+                                     "pedidos":  12,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1565.6100000000001
+                                 },
+                  "2026-04-04":  {
+                                     "pedidos":  16,
+                                     "valCancel":  37.9,
+                                     "pedCancel":  1,
+                                     "receita":  3059.1900000000005
+                                 },
+                  "2026-04-13":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4807.8
+                                 },
+                  "2026-05-29":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3969.29
+                                 },
+                  "2026-08-10":  {
+                                     "pedidos":  13,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  2180.32
+                                 },
+                  "2026-04-30":  {
+                                     "pedidos":  14,
+                                     "valCancel":  183.39000000000001,
+                                     "pedCancel":  2,
+                                     "receita":  3643.7
+                                 },
+                  "2026-02-22":  {
+                                     "pedidos":  4,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  241.09
+                                 },
+                  "2026-03-06":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2465.2500000000009
+                                 },
+                  "2026-05-30":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2169.88
+                                 },
+                  "2026-06-15":  {
+                                     "pedidos":  25,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3528.91
+                                 },
+                  "2026-05-23":  {
+                                     "pedidos":  16,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1273.4800000000005
+                                 },
+                  "2026-08-12":  {
+                                     "pedidos":  23,
+                                     "valCancel":  0,
+                                     "pedCancel":  8,
+                                     "receita":  3371.9800000000009
+                                 },
+                  "2026-08-09":  {
+                                     "pedidos":  7,
+                                     "valCancel":  46.9,
+                                     "pedCancel":  1,
+                                     "receita":  920.9899999999999
+                                 },
+                  "2026-03-18":  {
+                                     "pedidos":  20,
+                                     "valCancel":  19.45,
+                                     "pedCancel":  1,
+                                     "receita":  4808.5700000000006
+                                 },
+                  "2026-07-06":  {
+                                     "pedidos":  13,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  786.55
+                                 },
+                  "2026-07-30":  {
+                                     "pedidos":  12,
+                                     "valCancel":  64.07,
+                                     "pedCancel":  1,
+                                     "receita":  1977.2
+                                 },
+                  "2026-03-11":  {
+                                     "pedidos":  14,
+                                     "valCancel":  65.01,
+                                     "pedCancel":  1,
+                                     "receita":  1757.6499999999999
+                                 },
+                  "2026-07-15":  {
+                                     "pedidos":  8,
+                                     "valCancel":  18.9,
+                                     "pedCancel":  1,
+                                     "receita":  534.15
+                                 },
+                  "2026-06-03":  {
+                                     "pedidos":  16,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4063.8900000000008
+                                 },
+                  "2026-03-22":  {
+                                     "pedidos":  5,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  148.6
+                                 },
+                  "2026-06-13":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1477.55
+                                 },
+                  "2026-06-04":  {
+                                     "pedidos":  16,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  5014.0199999999995
+                                 },
+                  "2026-05-07":  {
+                                     "pedidos":  11,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1905.8100000000004
+                                 },
+                  "2026-04-18":  {
+                                     "pedidos":  15,
+                                     "valCancel":  109.51,
+                                     "pedCancel":  1,
+                                     "receita":  5952.0500000000011
+                                 },
+                  "2026-05-02":  {
+                                     "pedidos":  6,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3747.0200000000004
+                                 },
+                  "2026-07-24":  {
+                                     "pedidos":  15,
+                                     "valCancel":  663.1,
+                                     "pedCancel":  2,
+                                     "receita":  2048.94
+                                 },
+                  "2026-04-27":  {
+                                     "pedidos":  18,
+                                     "valCancel":  19.45,
+                                     "pedCancel":  3,
+                                     "receita":  3679.0899999999992
+                                 },
+                  "2026-05-13":  {
+                                     "pedidos":  11,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1742.9500000000005
+                                 },
+                  "2026-02-24":  {
+                                     "pedidos":  8,
+                                     "valCancel":  1172.9,
+                                     "pedCancel":  1,
+                                     "receita":  2016.6200000000001
+                                 },
+                  "2026-08-15":  {
+                                     "pedidos":  10,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2438.5600000000004
+                                 },
+                  "2026-05-08":  {
+                                     "pedidos":  9,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  754.08
+                                 },
+                  "2026-07-01":  {
+                                     "pedidos":  22,
+                                     "valCancel":  769.11,
+                                     "pedCancel":  1,
+                                     "receita":  1632.97
+                                 },
+                  "2026-03-16":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1150.5700000000002
+                                 },
+                  "2026-08-07":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  673.2
+                                 },
+                  "2026-07-10":  {
+                                     "pedidos":  15,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2084.81
+                                 },
+                  "2026-06-29":  {
+                                     "pedidos":  8,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  399.83999999999992
+                                 },
+                  "2026-07-08":  {
+                                     "pedidos":  23,
+                                     "valCancel":  75.9,
+                                     "pedCancel":  1,
+                                     "receita":  2971.9500000000007
+                                 },
+                  "2026-05-26":  {
+                                     "pedidos":  18,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4805.53
+                                 },
+                  "2026-03-13":  {
+                                     "pedidos":  8,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2289.54
+                                 },
+                  "2026-07-07":  {
+                                     "pedidos":  21,
+                                     "valCancel":  19.27,
+                                     "pedCancel":  1,
+                                     "receita":  1865.04
+                                 },
+                  "2026-08-08":  {
+                                     "pedidos":  3,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  129.70000000000002
+                                 },
+                  "2026-08-16":  {
+                                     "pedidos":  3,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1449.8
+                                 },
+                  "2026-07-02":  {
+                                     "pedidos":  25,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  5395.7100000000009
+                                 },
+                  "2026-02-25":  {
+                                     "pedidos":  15,
+                                     "valCancel":  19.45,
+                                     "pedCancel":  1,
+                                     "receita":  2585.77
+                                 },
+                  "2026-04-08":  {
+                                     "pedidos":  19,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2734.11
+                                 },
+                  "2026-02-20":  {
+                                     "pedidos":  3,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  383.69
+                                 },
+                  "2026-05-22":  {
+                                     "pedidos":  19,
+                                     "valCancel":  61.9,
+                                     "pedCancel":  1,
+                                     "receita":  2510.64
+                                 },
+                  "2026-02-23":  {
+                                     "pedidos":  3,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  699.72
+                                 },
+                  "2026-03-09":  {
+                                     "pedidos":  18,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  2019.1700000000003
+                                 },
+                  "2026-06-12":  {
+                                     "pedidos":  14,
+                                     "valCancel":  19.45,
+                                     "pedCancel":  1,
+                                     "receita":  1815.9700000000005
+                                 },
+                  "2026-05-11":  {
+                                     "pedidos":  17,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  2950.2699999999995
+                                 },
+                  "2026-07-25":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  491.05
+                                 },
+                  "2026-03-03":  {
+                                     "pedidos":  32,
+                                     "valCancel":  65.01,
+                                     "pedCancel":  5,
+                                     "receita":  4624.99
+                                 },
+                  "2026-04-22":  {
+                                     "pedidos":  15,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4301.32
+                                 },
+                  "2026-06-30":  {
+                                     "pedidos":  13,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1889.7600000000002
+                                 },
+                  "2026-06-01":  {
+                                     "pedidos":  23,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3275.7000000000007
+                                 },
+                  "2026-04-05":  {
+                                     "pedidos":  7,
+                                     "valCancel":  73.9,
+                                     "pedCancel":  1,
+                                     "receita":  844.67
+                                 },
+                  "2026-03-20":  {
+                                     "pedidos":  3,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  58.349999999999994
+                                 },
+                  "2026-07-17":  {
+                                     "pedidos":  10,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  560.18999999999994
+                                 },
+                  "2026-04-16":  {
+                                     "pedidos":  12,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2768.6400000000003
+                                 },
+                  "2026-03-23":  {
+                                     "pedidos":  17,
+                                     "valCancel":  19.45,
+                                     "pedCancel":  1,
+                                     "receita":  1474.8400000000001
+                                 },
+                  "2026-03-14":  {
+                                     "pedidos":  11,
+                                     "valCancel":  154.07,
+                                     "pedCancel":  2,
+                                     "receita":  1451.42
+                                 },
+                  "2026-07-27":  {
+                                     "pedidos":  12,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1619.51
+                                 },
+                  "2026-06-21":  {
+                                     "pedidos":  5,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  596.6099999999999
+                                 },
+                  "2026-07-31":  {
+                                     "pedidos":  9,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  920.4899999999999
+                                 },
+                  "2026-02-16":  {
+                                     "pedidos":  9,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1230.37
+                                 },
+                  "2026-06-28":  {
+                                     "pedidos":  11,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  602.15
+                                 },
+                  "2026-03-29":  {
+                                     "pedidos":  6,
+                                     "valCancel":  22.9,
+                                     "pedCancel":  1,
+                                     "receita":  1516.41
+                                 },
+                  "2026-08-02":  {
+                                     "pedidos":  12,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  1358.05
+                                 },
+                  "2026-04-20":  {
+                                     "pedidos":  17,
+                                     "valCancel":  51.9,
+                                     "pedCancel":  1,
+                                     "receita":  6210.1600000000008
+                                 },
+                  "2026-06-27":  {
+                                     "pedidos":  16,
+                                     "valCancel":  19.45,
+                                     "pedCancel":  1,
+                                     "receita":  844.81000000000006
+                                 },
+                  "2026-04-15":  {
+                                     "pedidos":  28,
+                                     "valCancel":  1187.18,
+                                     "pedCancel":  1,
+                                     "receita":  7209.0799999999981
+                                 },
+                  "2026-04-02":  {
+                                     "pedidos":  11,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2831.5600000000004
+                                 },
+                  "2026-07-28":  {
+                                     "pedidos":  19,
+                                     "valCancel":  378.95,
+                                     "pedCancel":  1,
+                                     "receita":  3471.9300000000007
+                                 },
+                  "2026-04-24":  {
+                                     "pedidos":  19,
+                                     "valCancel":  1429.06,
+                                     "pedCancel":  2,
+                                     "receita":  9349.0999999999985
+                                 },
+                  "2026-03-10":  {
+                                     "pedidos":  19,
+                                     "valCancel":  429.32,
+                                     "pedCancel":  2,
+                                     "receita":  3264.2000000000003
+                                 },
+                  "2026-02-27":  {
+                                     "pedidos":  6,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1705.88
+                                 },
+                  "2026-08-01":  {
+                                     "pedidos":  7,
+                                     "valCancel":  23.5,
+                                     "pedCancel":  3,
+                                     "receita":  1297.63
+                                 },
+                  "2026-04-03":  {
+                                     "pedidos":  11,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1303.4299999999998
+                                 },
+                  "2026-06-11":  {
+                                     "pedidos":  20,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2694.45
+                                 },
+                  "2026-07-20":  {
+                                     "pedidos":  10,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1321.0000000000002
+                                 },
+                  "2026-05-12":  {
+                                     "pedidos":  9,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1863.59
+                                 },
+                  "2026-03-07":  {
+                                     "pedidos":  8,
+                                     "valCancel":  94.35,
+                                     "pedCancel":  1,
+                                     "receita":  1280.9799999999998
+                                 },
+                  "2026-08-13":  {
+                                     "pedidos":  6,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  521.69999999999993
+                                 },
+                  "2026-06-06":  {
+                                     "pedidos":  12,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3931.44
+                                 },
+                  "2026-03-15":  {
+                                     "pedidos":  6,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  841
+                                 },
+                  "2026-04-25":  {
+                                     "pedidos":  8,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4616.7599999999993
+                                 },
+                  "2026-07-11":  {
+                                     "pedidos":  9,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  734.34
+                                 },
+                  "2026-03-30":  {
+                                     "pedidos":  30,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4966.08
+                                 },
+                  "2026-07-14":  {
+                                     "pedidos":  17,
+                                     "valCancel":  20.15,
+                                     "pedCancel":  1,
+                                     "receita":  2237.5100000000007
+                                 },
+                  "2026-07-04":  {
+                                     "pedidos":  15,
+                                     "valCancel":  37.91,
+                                     "pedCancel":  2,
+                                     "receita":  664.47
+                                 },
+                  "2026-03-24":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  614.31999999999994
+                                 },
+                  "2026-04-14":  {
+                                     "pedidos":  34,
+                                     "valCancel":  369.5,
+                                     "pedCancel":  3,
+                                     "receita":  3634.8000000000015
+                                 },
+                  "2026-03-21":  {
+                                     "pedidos":  3,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  61.8
+                                 },
+                  "2026-05-25":  {
+                                     "pedidos":  20,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3742.5900000000006
+                                 },
+                  "2026-04-23":  {
+                                     "pedidos":  15,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  7689.5399999999991
+                                 },
+                  "2026-07-12":  {
+                                     "pedidos":  17,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1538.9000000000003
+                                 },
+                  "2026-02-18":  {
+                                     "pedidos":  7,
+                                     "valCancel":  164.9,
+                                     "pedCancel":  1,
+                                     "receita":  902.2399999999999
+                                 },
+                  "2026-07-05":  {
+                                     "pedidos":  9,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  486.83000000000004
+                                 },
+                  "2026-06-20":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  911.26
+                                 },
+                  "2026-06-02":  {
+                                     "pedidos":  26,
+                                     "valCancel":  0,
+                                     "pedCancel":  2,
+                                     "receita":  5447.49
+                                 },
+                  "2026-04-19":  {
+                                     "pedidos":  16,
+                                     "valCancel":  185.66,
+                                     "pedCancel":  2,
+                                     "receita":  2869.8800000000006
+                                 },
+                  "2026-07-29":  {
+                                     "pedidos":  18,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  6293.7399999999989
+                                 },
+                  "2026-06-19":  {
+                                     "pedidos":  16,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4422.5400000000009
+                                 },
+                  "2026-04-07":  {
+                                     "pedidos":  24,
+                                     "valCancel":  148.45,
+                                     "pedCancel":  2,
+                                     "receita":  4648.7400000000007
+                                 },
+                  "2026-03-01":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2658.5700000000006
+                                 },
+                  "2026-03-04":  {
+                                     "pedidos":  20,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3978.7900000000004
+                                 },
+                  "2026-06-10":  {
+                                     "pedidos":  26,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  4776.73
+                                 },
+                  "2026-06-08":  {
+                                     "pedidos":  22,
+                                     "valCancel":  78.9,
+                                     "pedCancel":  1,
+                                     "receita":  6418.8200000000015
+                                 },
+                  "2026-06-23":  {
+                                     "pedidos":  19,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1066.6400000000003
+                                 },
+                  "2026-02-21":  {
+                                     "pedidos":  3,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  248.83
+                                 },
+                  "2026-07-19":  {
+                                     "pedidos":  5,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  351.82000000000005
+                                 },
+                  "2026-06-26":  {
+                                     "pedidos":  14,
+                                     "valCancel":  119.52,
+                                     "pedCancel":  1,
+                                     "receita":  2192.09
+                                 },
+                  "2026-08-14":  {
+                                     "pedidos":  16,
+                                     "valCancel":  543.02,
+                                     "pedCancel":  2,
+                                     "receita":  2102.7400000000002
+                                 },
+                  "2026-05-09":  {
+                                     "pedidos":  7,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  624.46
+                                 },
+                  "2026-02-28":  {
+                                     "pedidos":  9,
+                                     "valCancel":  566.06999999999994,
+                                     "pedCancel":  2,
+                                     "receita":  1595.4499999999998
+                                 },
+                  "2026-03-02":  {
+                                     "pedidos":  13,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2675.4800000000009
+                                 },
+                  "2026-03-17":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1246.5600000000002
+                                 },
+                  "2026-04-28":  {
+                                     "pedidos":  20,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  5349.64
+                                 },
+                  "2026-05-24":  {
+                                     "pedidos":  18,
+                                     "valCancel":  188.12,
+                                     "pedCancel":  1,
+                                     "receita":  3905.33
+                                 },
+                  "2026-04-12":  {
+                                     "pedidos":  16,
+                                     "valCancel":  73.9,
+                                     "pedCancel":  1,
+                                     "receita":  2555.35
+                                 },
+                  "2026-03-27":  {
+                                     "pedidos":  8,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1886.5500000000002
+                                 },
+                  "2026-04-17":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3540.9000000000005
+                                 },
+                  "2026-07-23":  {
+                                     "pedidos":  7,
+                                     "valCancel":  387.5,
+                                     "pedCancel":  1,
+                                     "receita":  1336.5000000000002
+                                 },
+                  "2026-04-01":  {
+                                     "pedidos":  21,
+                                     "valCancel":  105.9,
+                                     "pedCancel":  1,
+                                     "receita":  3032.23
+                                 },
+                  "2026-06-07":  {
+                                     "pedidos":  10,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  1013.43
+                                 },
+                  "2026-04-21":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2455.9
+                                 },
+                  "2026-05-04":  {
+                                     "pedidos":  12,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  3096.1
+                                 },
+                  "2026-06-14":  {
+                                     "pedidos":  9,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2118.5800000000004
+                                 },
+                  "2026-05-17":  {
+                                     "pedidos":  14,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2033.97
+                                 },
+                  "2026-05-20":  {
+                                     "pedidos":  22,
+                                     "valCancel":  19.45,
+                                     "pedCancel":  1,
+                                     "receita":  5104.97
+                                 },
+                  "2026-05-27":  {
+                                     "pedidos":  20,
+                                     "valCancel":  61.9,
+                                     "pedCancel":  1,
+                                     "receita":  4011.6300000000006
+                                 },
+                  "2026-08-03":  {
+                                     "pedidos":  6,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  432.4
+                                 },
+                  "2026-04-11":  {
+                                     "pedidos":  13,
+                                     "valCancel":  26.9,
+                                     "pedCancel":  1,
+                                     "receita":  3779.5000000000009
+                                 },
+                  "2026-03-05":  {
+                                     "pedidos":  19,
+                                     "valCancel":  58.9,
+                                     "pedCancel":  1,
+                                     "receita":  5801.6500000000005
+                                 },
+                  "2026-04-06":  {
+                                     "pedidos":  16,
+                                     "valCancel":  0,
+                                     "pedCancel":  0,
+                                     "receita":  2333.64
+                                 },
+                  "2026-06-17":  {
+                                     "pedidos":  15,
+                                     "valCancel":  125.83,
+                                     "pedCancel":  2,
+                                     "receita":  2488.8599999999997
+                                 },
+                  "2026-04-09":  {
+                                     "pedidos":  31,
+                                     "valCancel":  1310.73,
+                                     "pedCancel":  2,
+                                     "receita":  9478.31
+                                 },
+                  "2026-05-14":  {
+                                     "pedidos":  9,
+                                     "valCancel":  49.8,
+                                     "pedCancel":  1,
+                                     "receita":  410.64
+                                 }
+              },
+    "monthlyVisits":  {
+                          "3":  0,
+                          "5":  8831,
+                          "10":  0,
+                          "2":  0,
+                          "8":  0,
+                          "0":  0,
+                          "11":  0,
+                          "1":  0,
+                          "9":  0,
+                          "7":  5743,
+                          "6":  11740,
+                          "4":  0
+                      },
+    "monthlyAds":  {
+                       "3":  0,
+                       "5":  3517.5400000000004,
+                       "10":  0,
+                       "2":  0,
+                       "8":  0,
+                       "0":  0,
+                       "11":  0,
+                       "1":  0,
+                       "9":  0,
+                       "7":  2291.57,
+                       "6":  3076.2199999999993,
+                       "4":  2770.5499999999997
+                   },
+    "log":  [
+                "Lendo Vendas: C:\\Users\\dudu4\\Downloads\\bom de compras\\vendas mercado livre.xlsx",
+                "  pedidos processados: 2502 (cancelados: 124, datas nao reconhecidas: 0)",
+                "  intervalo de datas: 2026-02-16 a 2026-08-16",
+                "  desempenho de anuncios junho.xlsx -\u003e mes 6, visitas unicas somadas: 8831",
+                "  desempenho de anuncios julho.xlsx -\u003e mes 7, visitas unicas somadas: 11740",
+                "  desempenho de anuncios agosto.xlsx -\u003e mes 8, visitas unicas somadas: 5743",
+                "  desempenho de anuncios agosto2.xlsx -\u003e mes 8, visitas unicas somadas: 5743",
+                "Lendo PADS: report-pads_report-357977-1786858159228.xlsx",
+                "  linhas de investimento lidas: 616"
+            ]
+}
